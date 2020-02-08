@@ -1,0 +1,218 @@
+self.__precacheManifest = (self.__precacheManifest || []).concat([
+  {
+    "revision": "f2e7b7949cf138258dddc9f53a741402",
+    "url": "/react-portfolio/index.html"
+  },
+  {
+    "revision": "a312969e0989ee1d52c7",
+    "url": "/react-portfolio/static/css/2.025aabce.chunk.css"
+  },
+  {
+    "revision": "af312e248b270bef129e",
+    "url": "/react-portfolio/static/css/main.80fc0ed6.chunk.css"
+  },
+  {
+    "revision": "a312969e0989ee1d52c7",
+    "url": "/react-portfolio/static/js/2.97c01a3f.chunk.js"
+  },
+  {
+    "revision": "543c9401cb79ad419c17ff0ee3c23584",
+    "url": "/react-portfolio/static/js/2.97c01a3f.chunk.js.LICENSE.txt"
+  },
+  {
+    "revision": "af312e248b270bef129e",
+    "url": "/react-portfolio/static/js/main.b830bc8f.chunk.js"
+  },
+  {
+    "revision": "705003697971b509eb19",
+    "url": "/react-portfolio/static/js/runtime-main.9134e133.js"
+  },
+  {
+    "revision": "edc21cc301f200add64048a3b9f13b55",
+    "url": "/react-portfolio/static/media/1.edc21cc3.png"
+  },
+  {
+    "revision": "517e683eb9ed00aeadb497de6d969b90",
+    "url": "/react-portfolio/static/media/10.517e683e.jpg"
+  },
+  {
+    "revision": "e12a90a1b9ff09b17dbc289dd8ac2db3",
+    "url": "/react-portfolio/static/media/2.e12a90a1.png"
+  },
+  {
+    "revision": "a9a320a15f27159728c1eba0a27550b1",
+    "url": "/react-portfolio/static/media/3.a9a320a1.png"
+  },
+  {
+    "revision": "a5ee786ea51f5d513c08fbccac8dc97d",
+    "url": "/react-portfolio/static/media/4.a5ee786e.png"
+  },
+  {
+    "revision": "204f5029996a25404adad45cde2515bf",
+    "url": "/react-portfolio/static/media/5.204f5029.png"
+  },
+  {
+    "revision": "45c3880f05b7bec5f4c87a80cd912fb1",
+    "url": "/react-portfolio/static/media/6.45c3880f.png"
+  },
+  {
+    "revision": "517e683eb9ed00aeadb497de6d969b90",
+    "url": "/react-portfolio/static/media/9.517e683e.jpg"
+  },
+  {
+    "revision": "907b74de12b89805612e69cd9ece33f6",
+    "url": "/react-portfolio/static/media/ElegantIcons.907b74de.svg"
+  },
+  {
+    "revision": "d72ad3f702b9f23540e8ed78b4b65749",
+    "url": "/react-portfolio/static/media/ElegantIcons.d72ad3f7.eot"
+  },
+  {
+    "revision": "f9d179f59b0878ffcd32a5b3c8ae9c62",
+    "url": "/react-portfolio/static/media/ElegantIcons.f9d179f5.ttf"
+  },
+  {
+    "revision": "fdd9e757bf61675343dcf55100422b84",
+    "url": "/react-portfolio/static/media/ElegantIcons.fdd9e757.woff"
+  },
+  {
+    "revision": "803ca4bc6a6f08a842a830bbb635f456",
+    "url": "/react-portfolio/static/media/Flaticon.803ca4bc.woff"
+  },
+  {
+    "revision": "ceeb894f4b74386e330043ca5c5d4d8f",
+    "url": "/react-portfolio/static/media/Flaticon.ceeb894f.woff2"
+  },
+  {
+    "revision": "b4359c42adc69653546965ab7852ed94",
+    "url": "/react-portfolio/static/media/Sail-Away.b4359c42.jpg"
+  },
+  {
+    "revision": "12d03829f35350149b008a98b1cb7553",
+    "url": "/react-portfolio/static/media/agency-skill.12d03829.jpg"
+  },
+  {
+    "revision": "d852f421924ad748c564a9271b4feda4",
+    "url": "/react-portfolio/static/media/banner_img.d852f421.svg"
+  },
+  {
+    "revision": "04f3ad3c4ca1abfa11a38a717dac866f",
+    "url": "/react-portfolio/static/media/blog-1.04f3ad3c.jpg"
+  },
+  {
+    "revision": "04f3ad3c4ca1abfa11a38a717dac866f",
+    "url": "/react-portfolio/static/media/blog-2.04f3ad3c.jpg"
+  },
+  {
+    "revision": "b4359c42adc69653546965ab7852ed94",
+    "url": "/react-portfolio/static/media/creative_bg1.b4359c42.jpg"
+  },
+  {
+    "revision": "26ec3c7d0366e0825d705c6e224a8803",
+    "url": "/react-portfolio/static/media/et-line.26ec3c7d.eot"
+  },
+  {
+    "revision": "569bd9082c15cc30fa6e05626abdd505",
+    "url": "/react-portfolio/static/media/et-line.569bd908.svg"
+  },
+  {
+    "revision": "98126e3e1238b0f3b941ad285320ce28",
+    "url": "/react-portfolio/static/media/et-line.98126e3e.ttf"
+  },
+  {
+    "revision": "b01ff252761958325faab1535c90c87f",
+    "url": "/react-portfolio/static/media/et-line.b01ff252.woff"
+  },
+  {
+    "revision": "20b27179289396311adfb259a7b510eb",
+    "url": "/react-portfolio/static/media/f_man.20b27179.png"
+  },
+  {
+    "revision": "b4359c42adc69653546965ab7852ed94",
+    "url": "/react-portfolio/static/media/icebg.b4359c42.jpg"
+  },
+  {
+    "revision": "c0fbd8c7406f386d7b0eadd7c280a9a3",
+    "url": "/react-portfolio/static/media/img-3.c0fbd8c7.jpg"
+  },
+  {
+    "revision": "978fe695813ef87f502703086dfcbcad",
+    "url": "/react-portfolio/static/media/img.978fe695.svg"
+  },
+  {
+    "revision": "b28baa8958365c46aad2dde5d06371eb",
+    "url": "/react-portfolio/static/media/intro-bg.b28baa89.jpg"
+  },
+  {
+    "revision": "1fc2d46583cf67106413cbd92769f85b",
+    "url": "/react-portfolio/static/media/man.1fc2d465.jpg"
+  },
+  {
+    "revision": "d871640b32b141ebd58980f3bd4a483d",
+    "url": "/react-portfolio/static/media/mobile.d871640b.svg"
+  },
+  {
+    "revision": "b3c89bef000b4dc747c402f126b981af",
+    "url": "/react-portfolio/static/media/new1.b3c89bef.jpg"
+  },
+  {
+    "revision": "274736930e69ba244271a59b178ea3fc",
+    "url": "/react-portfolio/static/media/portfolio1.27473693.jpg"
+  },
+  {
+    "revision": "35b5680d41d9ddb941f01cd7a28986c8",
+    "url": "/react-portfolio/static/media/portfolio2.35b5680d.jpg"
+  },
+  {
+    "revision": "e84a5d159d880c30acbaca92ab385730",
+    "url": "/react-portfolio/static/media/post-img1.e84a5d15.jpg"
+  },
+  {
+    "revision": "e84a5d159d880c30acbaca92ab385730",
+    "url": "/react-portfolio/static/media/post-img2.e84a5d15.jpg"
+  },
+  {
+    "revision": "e84a5d159d880c30acbaca92ab385730",
+    "url": "/react-portfolio/static/media/post-img3.e84a5d15.jpg"
+  },
+  {
+    "revision": "7235e96ab76583b8d30e51e52a57b4dd",
+    "url": "/react-portfolio/static/media/profile.7235e96a.jpg"
+  },
+  {
+    "revision": "6771771267548f6f558819406f00f92f",
+    "url": "/react-portfolio/static/media/service.67717712.svg"
+  },
+  {
+    "revision": "1add9ee7635e549c71644bbd95e8a1f9",
+    "url": "/react-portfolio/static/media/shadow.1add9ee7.png"
+  },
+  {
+    "revision": "94de0520acb20dddd412634f5042c074",
+    "url": "/react-portfolio/static/media/shap1.94de0520.png"
+  },
+  {
+    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
+    "url": "/react-portfolio/static/media/slick.b7c9e1e4.woff"
+  },
+  {
+    "revision": "ced611daf7709cc778da928fec876475",
+    "url": "/react-portfolio/static/media/slick.ced611da.eot"
+  },
+  {
+    "revision": "d41f55a78e6f49a5512878df1737e58a",
+    "url": "/react-portfolio/static/media/slick.d41f55a7.ttf"
+  },
+  {
+    "revision": "f97e3bbf73254b0112091d0192f17aec",
+    "url": "/react-portfolio/static/media/slick.f97e3bbf.svg"
+  },
+  {
+    "revision": "1040818bc81af3100b668bed958f6743",
+    "url": "/react-portfolio/static/media/table.1040818b.png"
+  },
+  {
+    "revision": "bc1380d8422c6866764829435df302ab",
+    "url": "/react-portfolio/static/media/testimonial.bc1380d8.svg"
+  }
+]);
