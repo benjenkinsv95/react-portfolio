@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "40b8d9efe419a5b2968ae792b6bb6e86",
+    "revision": "58285fd3f516cb14b743eacceca50304",
     "url": "/index.html"
   },
   {
-    "revision": "70a2bf7662c4fdd49550",
+    "revision": "f0cdc879ab1b5cc9a69a",
     "url": "/static/css/2.3b35c00c.chunk.css"
   },
   {
-    "revision": "74418ca96a702b9b0474",
-    "url": "/static/css/main.86b7d3d3.chunk.css"
+    "revision": "89b27362aa749084fd9b",
+    "url": "/static/css/main.131aa90f.chunk.css"
   },
   {
-    "revision": "70a2bf7662c4fdd49550",
-    "url": "/static/js/2.a11ab162.chunk.js"
+    "revision": "f0cdc879ab1b5cc9a69a",
+    "url": "/static/js/2.8fbe6ded.chunk.js"
   },
   {
     "revision": "543c9401cb79ad419c17ff0ee3c23584",
-    "url": "/static/js/2.a11ab162.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.8fbe6ded.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "74418ca96a702b9b0474",
-    "url": "/static/js/main.08f38c22.chunk.js"
+    "revision": "89b27362aa749084fd9b",
+    "url": "/static/js/main.f9ce355b.chunk.js"
   },
   {
     "revision": "276a9cd5840c2f6c14db",
@@ -100,6 +100,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/banner_img.07ec6a8a.svg"
   },
   {
+    "revision": "78058a1d5449af3120b09ed2e8edf077",
+    "url": "/static/media/barliman-large.78058a1d.mp4"
+  },
+  {
     "revision": "95b63a1c699236e009a600f533152d9a",
     "url": "/static/media/barliman-large.95b63a1c.gif"
   },
@@ -108,8 +112,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/barliman-small.bdac9afc.gif"
   },
   {
+    "revision": "f36518727068936cf58cf0c0c759f419",
+    "url": "/static/media/barliman-small.f3651872.mp4"
+  },
+  {
     "revision": "61d618804ae69b9ce11ea059cbc444f2",
     "url": "/static/media/bitcube-large.61d61880.gif"
+  },
+  {
+    "revision": "defd61290a22c87738cde4f6a2cb0648",
+    "url": "/static/media/bitcube-large.defd6129.mp4"
+  },
+  {
+    "revision": "6573ddae3562a00dc6a72e655e30913b",
+    "url": "/static/media/bitcube-small.6573ddae.mp4"
   },
   {
     "revision": "9dedff463e07713f273dbb9f12121e1b",
@@ -126,6 +142,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b4359c42adc69653546965ab7852ed94",
     "url": "/static/media/creative_bg1.b4359c42.jpg"
+  },
+  {
+    "revision": "01504313689dc47e97f4136f95c203e1",
+    "url": "/static/media/cs-history-small.01504313.mp4"
   },
   {
     "revision": "8a21a1aedddb7928b24a60bc1c088d25",
@@ -168,12 +188,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/intro-bg.b28baa89.jpg"
   },
   {
+    "revision": "0c0ce27b5153da3298b63e89c205332a",
+    "url": "/static/media/kanban-large.0c0ce27b.mp4"
+  },
+  {
     "revision": "c50d40c5d5d2d9e31d55645645e0ccc4",
     "url": "/static/media/kanban-large.c50d40c5.gif"
   },
   {
     "revision": "75e7dd28566911cbcc4f82b0dde9c962",
     "url": "/static/media/kanban-small.75e7dd28.gif"
+  },
+  {
+    "revision": "caba5f9d0d766d700971ba44978b182e",
+    "url": "/static/media/kanban-small.caba5f9d.mp4"
   },
   {
     "revision": "ee56e9cdf8bc284a1df2a83b241cccf2",
@@ -202,6 +230,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "29c91ca6af1407e1b07d8bbf49ff572d",
     "url": "/static/media/need-that-small.29c91ca6.gif"
+  },
+  {
+    "revision": "c2d992e0619c9cd8c72f119d12136ec2",
+    "url": "/static/media/need-that-small.c2d992e0.mp4"
   },
   {
     "revision": "b3c89bef000b4dc747c402f126b981af",
@@ -238,6 +270,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e21a3a3408259de7807f5e2787ef3aa8",
     "url": "/static/media/resume.e21a3a34.pdf"
+  },
+  {
+    "revision": "634539b0c8afcd44e93b645f06ea7c81",
+    "url": "/static/media/sentimentsion-small.634539b0.mp4"
   },
   {
     "revision": "e931984347ee76e54932117f1fe794f4",
@@ -282,5 +318,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7a767e6877602f43f57b32d9be1b0856",
     "url": "/static/media/zelda-large.7a767e68.gif"
+  },
+  {
+    "revision": "a384b45d53adb414bc56a977ea38e45d",
+    "url": "/static/media/zelda-large.a384b45d.mp4"
   }
 ]);
