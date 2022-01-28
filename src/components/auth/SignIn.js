@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Navigate } from 'react-router-dom'
 
 import { signIn } from '../../api/auth'
-import { signInSuccess, signInFailure } from '../AutoDismissAlert/messages'
+import { signInSuccess, signInFailure } from './AutoDismissAlert/messages'
 import heroStyles from '../../styles/heroStyles'
 
 import Form from 'react-bootstrap/Form'
@@ -40,7 +40,7 @@ const SignIn = ({ msgAlert, setUser, user }) => {
   }
 
   if (shouldNavigate || user) {
-    return <Navigate to='/my-skills' />
+    return <Navigate to='/' />
   }
 
   return (

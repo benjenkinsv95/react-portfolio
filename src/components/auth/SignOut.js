@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Navigate } from 'react-router-dom'
 
 import { signOut } from '../../api/auth'
-import { signOutSuccess } from '../AutoDismissAlert/messages'
+import { signOutSuccess } from './AutoDismissAlert/messages'
 
 const SignOut = ({ msgAlert, clearUser, user }) => {
   const [shouldNavigate, setShouldNavigate] = useState(false)

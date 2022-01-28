@@ -1,16 +1,16 @@
 /* eslint-disable no-tabs */
 import React, { useState } from 'react'
-import { Route, Routes } from 'react-router-dom'
+import { Route, Routes, Navigate } from 'react-router-dom'
 import { v4 as uuid } from 'uuid'
 
-import AutoDismissAlert from './components/AutoDismissAlert/AutoDismissAlert'
+import AutoDismissAlert from './components/auth/AutoDismissAlert/AutoDismissAlert'
 import Header from './components/Header/Header'
 import SignUp from './components/auth/SignUp'
 import SignIn from './components/auth/SignIn'
 import SignOut from './components/auth/SignOut'
 import ChangePassword from './components/auth/ChangePassword'
-import UnauthenticatedHome from './components/UnauthenticatedHome'
-import MySkills from './components/skills/MySkills'
+import UnauthenticatedHome from './components/home/UnauthenticatedHome'
+import AuthenticatedHome from './components/home/AuthenticatedHome'
 
 const loadUser = () => {
   // eslint-disable-next-line no-undef
@@ -59,13 +59,18 @@ const App = () => {
             path='/change-password'
             element={<ChangePassword msgAlert={msgAlert} user={user} /> }
           />
+
           <Route
             path='/'
+            element={<Navigate to='/welcome'/>}
+          />
+          <Route
+            path='/welcome'
             element={<UnauthenticatedHome user={user} />}
           />
           <Route
-            path='/my-skills'
-            element={<MySkills msgAlert={msgAlert} user={user} />}
+            path='/home'
+            element={<AuthenticatedHome msgAlert={msgAlert} user={user} />}
           />
         </Routes>
       </main>

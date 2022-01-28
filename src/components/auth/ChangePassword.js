@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Navigate } from 'react-router-dom'
 
 import { changePassword } from '../../api/auth'
-import { changePasswordSuccess, changePasswordFailure } from '../AutoDismissAlert/messages'
+import { changePasswordSuccess, changePasswordFailure } from './AutoDismissAlert/messages'
 import heroStyles from '../../styles/heroStyles'
 
 import Form from 'react-bootstrap/Form'
@@ -36,7 +36,7 @@ const ChangePassword = ({ msgAlert, user }) => {
   }
 
   if (!user || shouldNavigate) {
-    return <Navigate to='/my-skills' />
+    return <Navigate to='/' />
   }
 
   return (
