@@ -1,10 +1,14 @@
 $primary: rgba(34, 193, 195, 1);
 $secondary: rgba(253,187,45,1);
-
 @import '~bootstrap/scss/bootstrap';
 
-head, body {
+html, body {
     margin: 0;
+}
+
+body {
+  background-color: #212529;
+  color: white;
 }
 
 .icon-link {
@@ -13,4 +17,13 @@ head, body {
 
 .icon-link:hover {
   color: $secondary;
+}
+
+// Make the font color match our bootstrap theme colors
+.btn-primary, .btn-secondary, 
+.btn-primary:hover, .btn-secondary:hover,
+.btn-outline-primary:hover, .btn-outline-secondary:hover,
+.btn-primary:focus, .btn-secondary:focus,
+.btn-outline-primary:focus, .btn-outline-secondary:focus {
+  color: white;
 }

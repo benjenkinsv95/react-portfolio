@@ -10,7 +10,6 @@ import SignIn from './components/auth/SignIn'
 import SignOut from './components/auth/SignOut'
 import ChangePassword from './components/auth/ChangePassword'
 import UnauthenticatedHome from './components/home/UnauthenticatedHome'
-import AuthenticatedHome from './components/home/AuthenticatedHome'
 
 import fontawesome from '@fortawesome/fontawesome'
 import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
@@ -74,10 +73,6 @@ const App = () => {
           <Route
             path='/welcome'
             element={<UnauthenticatedHome user={user} />}
-          />
-          <Route
-            path='/home'
-            element={<AuthenticatedHome msgAlert={msgAlert} user={user} />}
           />
         </Routes>
       </main>
