@@ -13,8 +13,7 @@ const authenticatedOptions = (
 
 const unauthenticatedOptions = (
   <>
-    {/* <NavLink to='/sign-up' className='nav-link'>Sign Up</NavLink>
-    <NavLink to='/sign-in' className='nav-link'>Sign In</NavLink> */}
+    <a href='#about' className='nav-link'>About</a>
   </>
 )
 

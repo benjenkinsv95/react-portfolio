@@ -7,8 +7,8 @@ const iconStyles = {
 }
 const Landing = () => (
   <div style={heroStyles}>
-    <h1>Ben Jenkins</h1>
-    <h2 className='mb-3 text-center'>Software&nbsp;Engineer, Educator, &&nbsp;Robot&nbsp;Enthusiast</h2>
+    <h2 className='title-h2'>Ben Jenkins</h2>
+    <h3 className='mb-3 text-center'>Software&nbsp;Engineer, Educator, &&nbsp;Robot&nbsp;Enthusiast</h3>
     <div>
       <a href='https://www.linkedin.com/in/benjenkinsv95/' target='_blank' rel="noreferrer" className='icon-link'>
         <FontAwesomeIcon style={iconStyles} size='3x' icon={['fab', 'linkedin']} />

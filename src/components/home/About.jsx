@@ -14,10 +14,10 @@ const Button = styled.button`
 `
 
 const About = () => (
-  <div className='container'>
+  <div id='about' className='container'>
     <div className='row my-4'>
       <div className='col-sm-8'>
-        <h1>About Me</h1>
+        <h2 className='title-h2 text-secondary'>About Me</h2>
         <Paragraph>
             I{'\''}m a software engineering instructor at General Assembly. Each day I have the opportunity to teach new developers the skills they need to land jobs as full-stack developers.
         </Paragraph>
