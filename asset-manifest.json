@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.46e5ee06.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.68a116d7.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.68a116d7.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.e1d8b27e.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.e1d8b27e.js.map",
+    "static/js/2.5a60a1f2.chunk.js": "/react-portfolio/static/js/2.5a60a1f2.chunk.js",
+    "static/js/2.5a60a1f2.chunk.js.map": "/react-portfolio/static/js/2.5a60a1f2.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.46e5ee06.chunk.css.map": "/react-portfolio/static/css/main.46e5ee06.chunk.css.map",
+    "static/js/2.5a60a1f2.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.5a60a1f2.chunk.js.LICENSE.txt",
+    "static/media/ben-jenkins-resume.647ce9dd.pdf": "/react-portfolio/static/media/ben-jenkins-resume.647ce9dd.pdf",
+    "static/media/profile_pic.9690dca2.jpg": "/react-portfolio/static/media/profile_pic.9690dca2.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e1d8b27e.js",
+    "static/js/2.5a60a1f2.chunk.js",
+    "static/css/main.46e5ee06.chunk.css",
+    "static/js/main.68a116d7.chunk.js"
+  ]
+}
