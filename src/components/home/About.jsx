@@ -15,8 +15,8 @@ const Button = styled.button`
 
 const About = () => (
   <div id='about' className='container'>
-    <div className='row my-4'>
-      <div className='col-sm-8'>
+    <div className='row mb-4'>
+      <div className='col-sm-8 mt-4'>
         <h2 className='title-h2 text-secondary'>About Me</h2>
         <Paragraph>
             I{'\''}m a software engineering instructor at General Assembly. I have had the opportunity to <span className='text-secondary'>teach over 500 new developers</span> in demand skills, such as <span className='text-primary'>React, Express, & Django</span> that they used to land jobs as full-stack developers.
@@ -42,7 +42,7 @@ const About = () => (
           </a>
         </div>
       </div>
-      <div className='col-sm-4'>
+      <div className='col-sm-4 mt-4'>
         <img className='img-fluid' src={profilePic} />
       </div>
     </div>
