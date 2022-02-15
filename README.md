@@ -1,5 +1,3 @@
-# react-template
+# React Portfolio
 
-1. replace instances of `react-template`
-2. update `homepage` in `package.json`
-3. update api url in `apiConfig.js`
+Ben Jenkins's Portfolio built with react.

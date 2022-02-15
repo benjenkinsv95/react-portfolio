@@ -8,7 +8,7 @@ const AuthenticatedHome = ({ user }) => {
   }
   return (
     <div style={heroStyles}>
-      <h1>react-template</h1>
+      <h1>Ben Jenkins</h1>
       <h2 className='mb-3'>Sign In to start using the app!</h2>
       <Link to='/sign-in'>
         <button className='btn btn-dark btn-lg'>

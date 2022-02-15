@@ -6,3 +6,11 @@ $secondary: rgba(253,187,45,1);
 head, body {
     margin: 0;
 }
+
+.icon-link {
+    color: white;
+}
+
+.icon-link:hover {
+  color: $secondary;
+}

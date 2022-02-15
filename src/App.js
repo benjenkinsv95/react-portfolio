@@ -12,6 +12,13 @@ import ChangePassword from './components/auth/ChangePassword'
 import UnauthenticatedHome from './components/home/UnauthenticatedHome'
 import AuthenticatedHome from './components/home/AuthenticatedHome'
 
+import fontawesome from '@fortawesome/fontawesome'
+import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+
+fontawesome.library.add(faGithub
+  , faLinkedin, faTwitter, faEnvelope)
+
 const loadUser = () => {
   // eslint-disable-next-line no-undef
   const user = localStorage.getItem('user')

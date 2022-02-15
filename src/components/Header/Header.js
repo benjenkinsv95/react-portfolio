@@ -13,8 +13,8 @@ const authenticatedOptions = (
 
 const unauthenticatedOptions = (
   <>
-    <NavLink to='/sign-up' className='nav-link'>Sign Up</NavLink>
-    <NavLink to='/sign-in' className='nav-link'>Sign In</NavLink>
+    {/* <NavLink to='/sign-up' className='nav-link'>Sign Up</NavLink>
+    <NavLink to='/sign-in' className='nav-link'>Sign In</NavLink> */}
   </>
 )
 
@@ -29,7 +29,7 @@ const Header = ({ user }) => (
   <Navbar bg="dark" variant="dark" expand='md'>
     <Container>
       <Navbar.Brand>
-        <Link to='/' style={{ color: '#FFF', textDecoration: 'none' }}>react-template</Link>
+        <Link to='/' style={{ color: '#FFF', textDecoration: 'none' }}>Ben Jenkins</Link>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls='basic-navbar-nav' />
       <Navbar.Collapse id='basic-navbar-nav'>

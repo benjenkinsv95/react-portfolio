@@ -1,9 +1,15 @@
 {
-  "homepage": "https://benjenkinsv95.github.io/repo-name",
-  "name": "react-template",
+  "homepage": "https://ben-jenkins.com",
+  "name": "React Portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-regular-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.16",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
@@ -14,6 +20,8 @@
     "dotenv": "^8.2.0",
     "dotenv-expand": "^5.1.0",
     "fs-extra": "^9.1.0",
+    "install": "^0.13.0",
+    "npm": "^8.4.0",
     "object-assign": "^4.1.1",
     "promise": "^8.1.0",
     "raf": "^3.4.1",
@@ -23,6 +31,7 @@
     "react-router-dom": "^6.1.1",
     "react-scripts": "4.0.3",
     "resolve": "^1.18.1",
+    "styled-components": "^5.3.3",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
