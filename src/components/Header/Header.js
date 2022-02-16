@@ -14,6 +14,7 @@ const authenticatedOptions = (
 const unauthenticatedOptions = (
   <>
     <a href='#about' className='nav-link'>About</a>
+    <a href='#projects' className='nav-link'>Projects</a>
   </>
 )
 

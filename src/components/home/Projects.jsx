@@ -2,13 +2,15 @@ import React from 'react'
 import { radialGradientStyles } from '../../styles/heroStyles'
 import projects from '../../data/projects'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import useWindowSize from '../../lib/use-window-size'
 
 const Projects = () => {
+  const { width } = useWindowSize()
   const projectElements = projects.map((project, i) => (
     <div key={i} className='col-md-6 col-xl-4 mb-4'>
       <div className="card bg-dark text-white">
         {/* autoplay is also an option, instead of mouseOver/mouseOut */}
-        <video className='small-video' loop muted playsInline autoPlay>
+        <video className={width > 450 ? 'small-video' : ''} loop muted playsInline autoPlay>
           <source src={project.videoUrl} type="video/mp4"/>
         </video>
         <div className="card-body">
@@ -31,7 +33,7 @@ const Projects = () => {
   return (
     <div style={radialGradientStyles}>
       <div className="container py-4">
-        <h2 className='title-h2 text-center mb-3'>Projects</h2>
+        <h2 id="projects" className='title-h2 text-center mb-3'>Projects</h2>
         <div className="row">
           {projectElements}
         </div>
