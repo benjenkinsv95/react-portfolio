@@ -37,19 +37,19 @@ const swiftLabel = { name: 'Swift', background: orange, color: 'white' }
 // export projects
 export default [
   {
-    title: 'Bitcube Image Uploader',
-    shortDescription: 'A website to upload images, similar to imgur. Built with AWS S3.',
-    githubUrl: 'https://github.com/benjenkinsv95/bitcube-image-uploader',
-    video: bitcubeSmall,
-    labels: [reactLabel, awsLabel, materialUILabel, jsLabel]
-  },
-  {
     title: 'React Kanban Board',
     shortDescription: 'A Kanban Board built using React',
     githubUrl: 'https://github.com/benjenkinsv95/react-kanban-board',
     deployedUrl: 'https://benjenkinsv95.github.io/react-kanban-board/',
     video: kanbanSmall,
     labels: [reactLabel, materialUILabel, jsLabel, htmlLabel]
+  },
+  {
+    title: 'Bitcube Image Uploader',
+    shortDescription: 'A website to upload images, similar to imgur. Built with AWS S3.',
+    githubUrl: 'https://github.com/benjenkinsv95/bitcube-image-uploader',
+    video: bitcubeSmall,
+    labels: [awsLabel, materialUILabel, jsLabel, htmlLabel, cssLabel]
   },
   {
     title: 'Do You Really Need That?',

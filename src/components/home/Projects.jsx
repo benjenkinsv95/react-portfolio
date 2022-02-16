@@ -47,9 +47,9 @@ const Projects = () => {
     </div>
   ))
   return (
-    <div style={radialGradientStyles}>
+    <div id="projects" style={radialGradientStyles}>
       <div className="container py-4">
-        <h2 id="projects" className='title-h2 text-center mb-3'>Projects</h2>
+        <h2 className='title-h2 text-center mb-3'>Projects</h2>
         <div className="row">
           {projectElements}
         </div>
