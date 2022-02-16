@@ -13,10 +13,10 @@ import UnauthenticatedHome from './components/home/UnauthenticatedHome'
 
 import fontawesome from '@fortawesome/fontawesome'
 import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faDesktop } from '@fortawesome/free-solid-svg-icons'
 
 fontawesome.library.add(faGithub
-  , faLinkedin, faTwitter, faEnvelope)
+  , faLinkedin, faTwitter, faEnvelope, faDesktop)
 
 const loadUser = () => {
   // eslint-disable-next-line no-undef

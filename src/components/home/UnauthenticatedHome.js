@@ -2,6 +2,7 @@ import React from 'react'
 import { Navigate } from 'react-router-dom'
 import About from './About'
 import Landing from './Landing'
+import Projects from './Projects'
 
 const UnauthenticatedHome = ({ user }) => {
   if (user) {
@@ -12,6 +13,7 @@ const UnauthenticatedHome = ({ user }) => {
     <>
       <Landing />
       <About />
+      <Projects />
     </>
   )
 }
