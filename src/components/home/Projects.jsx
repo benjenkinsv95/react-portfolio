@@ -12,6 +12,7 @@ const Label = styled.span`
     font-weight: 600;
     border-radius: 0.6rem;
     margin-right: 0.4rem;
+    overflow-wrap: normal;
 `
 
 const Projects = () => {
