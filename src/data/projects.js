@@ -5,6 +5,7 @@ import csHistorySmall from '../assets/cs-history-small.mp4'
 import doomsdaySmall from '../assets/doomsday-small.mp4'
 import kanbanSmall from '../assets/kanban-small.mp4'
 import latinLearnerSmall from '../assets/latin-learner-small.mp4'
+import latinVocabSmall from '../assets/latin-vocab-quiz-small.mp4'
 import needThatSmall from '../assets/need-that-small.mp4'
 import sentimentsionSmall from '../assets/sentimentsion-small.mp4'
 import zeldaSmall from '../assets/zelda-small.mp4'
@@ -45,6 +46,14 @@ export default [
     githubUrl: 'https://github.com/benjenkinsv95/latin-learner',
     deployedUrl: 'https://benjenkinsv95.github.io/latin-learner/',
     video: latinLearnerSmall,
+    labels: [reactLabel, bootstrapLabel, jsLabel, htmlLabel, cssLabel]
+  },
+  {
+    title: 'Latin Vocab Quiz',
+    shortDescription: 'Practice the Latin vocab in books such as LLPSI with Latin pronunciations and a review mode.',
+    githubUrl: 'https://github.com/benjenkinsv95/latin-vocab-quiz',
+    deployedUrl: 'https://benjenkinsv95.github.io/latin-vocab-quiz/',
+    video: latinVocabSmall,
     labels: [reactLabel, bootstrapLabel, jsLabel, htmlLabel, cssLabel]
   },
   {
