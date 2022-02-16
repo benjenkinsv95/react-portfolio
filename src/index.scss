@@ -11,6 +11,11 @@ body {
   color: white;
 }
 
+* {
+  /* The height of the navbar */
+  scroll-margin-top: 56px;
+}
+
 .icon-link {
     color: white;
 }

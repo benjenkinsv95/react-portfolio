@@ -6,7 +6,7 @@ const iconStyles = {
   marginRight: '16px'
 }
 const Landing = () => (
-  <div style={heroStyles}>
+  <div id='landing' style={heroStyles}>
     <h2 className='title-h2'>Ben Jenkins</h2>
     <h3 className='mb-3 text-center'>Software&nbsp;Engineer, Educator, &&nbsp;Robot&nbsp;Enthusiast</h3>
     <div>

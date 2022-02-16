@@ -13,6 +13,7 @@ const authenticatedOptions = (
 
 const unauthenticatedOptions = (
   <>
+    <a href='#landing' className='nav-link'>Home</a>
     <a href='#about' className='nav-link'>About</a>
     <a href='#projects' className='nav-link'>Projects</a>
   </>
@@ -26,7 +27,7 @@ const alwaysOptions = (
 )
 
 const Header = ({ user }) => (
-  <Navbar bg="dark" variant="dark" expand='md'>
+  <Navbar bg="dark" variant="dark" expand='md' sticky="top">
     <Container>
       <Navbar.Brand>
         <Link to='/' style={{ color: '#FFF', textDecoration: 'none' }}>Ben Jenkins</Link>
