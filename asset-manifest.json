@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.b3eace68.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.1ea8f6c7.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.1ea8f6c7.chunk.js.map",
-    "runtime-main.js": "/react-portfolio/static/js/runtime-main.e1d8b27e.js",
-    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.e1d8b27e.js.map",
-    "static/js/2.adfa7d4b.chunk.js": "/react-portfolio/static/js/2.adfa7d4b.chunk.js",
-    "static/js/2.adfa7d4b.chunk.js.map": "/react-portfolio/static/js/2.adfa7d4b.chunk.js.map",
-    "index.html": "/react-portfolio/index.html",
-    "static/css/main.b3eace68.chunk.css.map": "/react-portfolio/static/css/main.b3eace68.chunk.css.map",
-    "static/js/2.adfa7d4b.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.adfa7d4b.chunk.js.LICENSE.txt",
-    "static/media/barliman-small.21506977.mp4": "/react-portfolio/static/media/barliman-small.21506977.mp4",
-    "static/media/ben-jenkins-resume.647ce9dd.pdf": "/react-portfolio/static/media/ben-jenkins-resume.647ce9dd.pdf",
-    "static/media/bitcube-small.2fff7040.mp4": "/react-portfolio/static/media/bitcube-small.2fff7040.mp4",
-    "static/media/cs-history-small.1a389003.mp4": "/react-portfolio/static/media/cs-history-small.1a389003.mp4",
-    "static/media/kanban-small.8d676b1e.mp4": "/react-portfolio/static/media/kanban-small.8d676b1e.mp4",
-    "static/media/need-that-small.fe9cb259.mp4": "/react-portfolio/static/media/need-that-small.fe9cb259.mp4",
-    "static/media/profile_pic.9690dca2.jpg": "/react-portfolio/static/media/profile_pic.9690dca2.jpg",
-    "static/media/sentimentsion-small.bc9d26c1.mp4": "/react-portfolio/static/media/sentimentsion-small.bc9d26c1.mp4",
-    "static/media/zelda-small.c0c79bad.mp4": "/react-portfolio/static/media/zelda-small.c0c79bad.mp4"
+    "main.css": "/static/css/main.b3eace68.chunk.css",
+    "main.js": "/static/js/main.ff451fa3.chunk.js",
+    "main.js.map": "/static/js/main.ff451fa3.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1f89b8c0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1f89b8c0.js.map",
+    "static/js/2.0b1910d6.chunk.js": "/static/js/2.0b1910d6.chunk.js",
+    "static/js/2.0b1910d6.chunk.js.map": "/static/js/2.0b1910d6.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.b3eace68.chunk.css.map": "/static/css/main.b3eace68.chunk.css.map",
+    "static/js/2.0b1910d6.chunk.js.LICENSE.txt": "/static/js/2.0b1910d6.chunk.js.LICENSE.txt",
+    "static/media/barliman-small.21506977.mp4": "/static/media/barliman-small.21506977.mp4",
+    "static/media/ben-jenkins-resume.647ce9dd.pdf": "/static/media/ben-jenkins-resume.647ce9dd.pdf",
+    "static/media/bitcube-small.2fff7040.mp4": "/static/media/bitcube-small.2fff7040.mp4",
+    "static/media/cs-history-small.1a389003.mp4": "/static/media/cs-history-small.1a389003.mp4",
+    "static/media/kanban-small.8d676b1e.mp4": "/static/media/kanban-small.8d676b1e.mp4",
+    "static/media/need-that-small.fe9cb259.mp4": "/static/media/need-that-small.fe9cb259.mp4",
+    "static/media/profile_pic.9690dca2.jpg": "/static/media/profile_pic.9690dca2.jpg",
+    "static/media/sentimentsion-small.bc9d26c1.mp4": "/static/media/sentimentsion-small.bc9d26c1.mp4",
+    "static/media/zelda-small.c0c79bad.mp4": "/static/media/zelda-small.c0c79bad.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.e1d8b27e.js",
-    "static/js/2.adfa7d4b.chunk.js",
+    "static/js/runtime-main.1f89b8c0.js",
+    "static/js/2.0b1910d6.chunk.js",
     "static/css/main.b3eace68.chunk.css",
-    "static/js/main.1ea8f6c7.chunk.js"
+    "static/js/main.ff451fa3.chunk.js"
   ]
 }
