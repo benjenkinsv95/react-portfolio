@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.b3eace68.chunk.css",
-    "main.js": "/static/js/main.9421ab36.chunk.js",
-    "main.js.map": "/static/js/main.9421ab36.chunk.js.map",
+    "main.js": "/static/js/main.2e6fadc3.chunk.js",
+    "main.js.map": "/static/js/main.2e6fadc3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1f89b8c0.js",
     "runtime-main.js.map": "/static/js/runtime-main.1f89b8c0.js.map",
-    "static/js/2.0b1910d6.chunk.js": "/static/js/2.0b1910d6.chunk.js",
-    "static/js/2.0b1910d6.chunk.js.map": "/static/js/2.0b1910d6.chunk.js.map",
+    "static/js/2.8e40609d.chunk.js": "/static/js/2.8e40609d.chunk.js",
+    "static/js/2.8e40609d.chunk.js.map": "/static/js/2.8e40609d.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.b3eace68.chunk.css.map": "/static/css/main.b3eace68.chunk.css.map",
-    "static/js/2.0b1910d6.chunk.js.LICENSE.txt": "/static/js/2.0b1910d6.chunk.js.LICENSE.txt",
+    "static/js/2.8e40609d.chunk.js.LICENSE.txt": "/static/js/2.8e40609d.chunk.js.LICENSE.txt",
     "static/media/barliman-small.21506977.mp4": "/static/media/barliman-small.21506977.mp4",
     "static/media/ben-jenkins-resume.00f2b6cc.pdf": "/static/media/ben-jenkins-resume.00f2b6cc.pdf",
     "static/media/bitcube-small.2fff7040.mp4": "/static/media/bitcube-small.2fff7040.mp4",
@@ -27,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.1f89b8c0.js",
-    "static/js/2.0b1910d6.chunk.js",
+    "static/js/2.8e40609d.chunk.js",
     "static/css/main.b3eace68.chunk.css",
-    "static/js/main.9421ab36.chunk.js"
+    "static/js/main.2e6fadc3.chunk.js"
   ]
 }
