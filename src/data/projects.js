@@ -1,11 +1,12 @@
 // import videos
-import kanbanSmall from '../assets/kanban-small.mp4'
-import needThatSmall from '../assets/need-that-small.mp4'
 import barlimanSmall from '../assets/barliman-small.mp4'
-import zeldaSmall from '../assets/zelda-small.mp4'
-import sentimentsionSmall from '../assets/sentimentsion-small.mp4'
 import bitcubeSmall from '../assets/bitcube-small.mp4'
 import csHistorySmall from '../assets/cs-history-small.mp4'
+import doomsdaySmall from '../assets/doomsday-small.mp4'
+import kanbanSmall from '../assets/kanban-small.mp4'
+import needThatSmall from '../assets/need-that-small.mp4'
+import sentimentsionSmall from '../assets/sentimentsion-small.mp4'
+import zeldaSmall from '../assets/zelda-small.mp4'
 
 // define custom colors, values come from here
 // https://www.pinterest.com/pin/415034921912258813/
@@ -21,6 +22,7 @@ const yellow = '#fad000'
 
 // create labels for the different technologies used
 const awsLabel = { name: 'AWS', background: orange, color: 'white' }
+const bootstrapLabel = { name: 'Bootstrap', background: grape, color: 'white' }
 const chromeExtensionLabel = { name: 'Extension', background: mintGreen, color: 'white' }
 const cssLabel = { name: 'CSS', background: yellow, color: 'black' }
 const historyLabel = { name: 'History', background: salmon, color: 'white' }
@@ -36,6 +38,14 @@ const swiftLabel = { name: 'Swift', background: orange, color: 'white' }
 
 // export projects
 export default [
+  {
+    title: 'Doomsday Rule Trainer',
+    shortDescription: 'Practice the doomsday rule to figure out what day of the week any date is on in your head.',
+    githubUrl: 'https://github.com/benjenkinsv95/doomsday-rule-trainer',
+    deployedUrl: 'https://benjenkinsv95.github.io/doomsday-rule-trainer/',
+    video: doomsdaySmall,
+    labels: [reactLabel, bootstrapLabel, jsLabel, htmlLabel, cssLabel]
+  },
   {
     title: 'React Kanban Board',
     shortDescription: 'A Kanban Board built using React',
