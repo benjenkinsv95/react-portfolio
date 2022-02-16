@@ -1,5 +1,6 @@
 import React from 'react'
 import { Navigate } from 'react-router-dom'
+import Footer from '../Footer/Footer'
 import About from './About'
 import Landing from './Landing'
 import Projects from './Projects'
@@ -14,6 +15,7 @@ const UnauthenticatedHome = ({ user }) => {
       <Landing />
       <About />
       <Projects />
+      <Footer />
     </>
   )
 }
