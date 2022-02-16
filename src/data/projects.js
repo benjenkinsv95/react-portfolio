@@ -5,6 +5,7 @@ import csHistorySmall from '../assets/cs-history-small.mp4'
 import doomsdaySmall from '../assets/doomsday-small.mp4'
 import kanbanSmall from '../assets/kanban-small.mp4'
 import latinLearnerSmall from '../assets/latin-learner-small.mp4'
+import latinTableQuiz from '../assets/latin-table-quiz.mp4'
 import latinVocabSmall from '../assets/latin-vocab-quiz-small.mp4'
 import needThatSmall from '../assets/need-that-small.mp4'
 import sentimentsionSmall from '../assets/sentimentsion-small.mp4'
@@ -62,6 +63,14 @@ export default [
     githubUrl: 'https://github.com/benjenkinsv95/doomsday-rule-trainer',
     deployedUrl: 'https://benjenkinsv95.github.io/doomsday-rule-trainer/',
     video: doomsdaySmall,
+    labels: [reactLabel, bootstrapLabel, jsLabel, htmlLabel, cssLabel]
+  },
+  {
+    title: 'Latin Table Quiz - Declensions',
+    shortDescription: 'Practice Latin declensions (noun suffixes) using the Dowling method.',
+    githubUrl: 'https://github.com/benjenkinsv95/latin-table-quiz',
+    deployedUrl: 'https://benjenkinsv95.github.io/latin-table-quiz/',
+    video: latinTableQuiz,
     labels: [reactLabel, bootstrapLabel, jsLabel, htmlLabel, cssLabel]
   },
   {
