@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import useWindowSize from '../../lib/use-window-size'
 import styled from 'styled-components'
@@ -14,12 +14,30 @@ const Label = styled.span`
 `
 
 const Project = ({ title, video, labels, githubUrl, shortDescription, deployedUrl }) => {
+  const videoElement = useRef(null)
   const { width } = useWindowSize()
+  const onlyShowOneColumn = width < 768
+  const handleMouseOver = event => {
+    if (!onlyShowOneColumn) {
+      videoElement.current.play()
+    }
+  }
+  const handleMouseOut = event => {
+    if (!onlyShowOneColumn) {
+      videoElement.current.pause()
+      videoElement.current.currentTime = 0
+    }
+  }
+
   return (
-    <div className='col-md-6 col-xl-4 mb-4'>
+    <div
+      className='col-md-6 col-xl-4 mb-4'
+      onMouseOver={handleMouseOver}
+      onMouseOut={handleMouseOut}
+    >
       <div className="card bg-dark text-white">
         {/* autoplay is also an option, instead of mouseOver/mouseOut */}
-        <video className={width > 1400 ? 'small-video' : ''} loop muted playsInline autoPlay>
+        <video ref={videoElement} className={width > 1400 ? 'small-video' : ''} loop muted playsInline autoPlay={onlyShowOneColumn}>
           <source src={video} type="video/mp4"/>
         </video>
         <div className="card-body">
