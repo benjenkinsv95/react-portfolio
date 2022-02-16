@@ -31,7 +31,7 @@ const About = () => (
         </Paragraph>
         <div>
           <a href='mailto:benjenkinsv95@gmail.com' target='_blank' rel="noreferrer">
-            <Button className='btn btn-secondary btn-lg me-4'>
+            <Button className='btn btn-secondary btn-lg me-3'>
               Get in Touch
             </Button>
           </a>
