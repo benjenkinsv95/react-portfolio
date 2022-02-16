@@ -4,6 +4,7 @@ import bitcubeSmall from '../assets/bitcube-small.mp4'
 import csHistorySmall from '../assets/cs-history-small.mp4'
 import doomsdaySmall from '../assets/doomsday-small.mp4'
 import kanbanSmall from '../assets/kanban-small.mp4'
+import latinLearnerSmall from '../assets/latin-learner-small.mp4'
 import needThatSmall from '../assets/need-that-small.mp4'
 import sentimentsionSmall from '../assets/sentimentsion-small.mp4'
 import zeldaSmall from '../assets/zelda-small.mp4'
@@ -38,6 +39,14 @@ const swiftLabel = { name: 'Swift', background: orange, color: 'white' }
 
 // export projects
 export default [
+  {
+    title: 'Latin Learner - Karaoke',
+    shortDescription: 'Sing along to latin language music, with the lyrics available ahead of time in Latin & English.',
+    githubUrl: 'https://github.com/benjenkinsv95/latin-learner',
+    deployedUrl: 'https://benjenkinsv95.github.io/latin-learner/',
+    video: latinLearnerSmall,
+    labels: [reactLabel, bootstrapLabel, jsLabel, htmlLabel, cssLabel]
+  },
   {
     title: 'Doomsday Rule Trainer',
     shortDescription: 'Practice the doomsday rule to figure out what day of the week any date is on in your head.',
