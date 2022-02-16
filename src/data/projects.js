@@ -9,6 +9,7 @@ import latinTableQuiz from '../assets/latin-table-quiz.mp4'
 import latinVocabSmall from '../assets/latin-vocab-quiz-small.mp4'
 import needThatSmall from '../assets/need-that-small.mp4'
 import sentimentsionSmall from '../assets/sentimentsion-small.mp4'
+import skillTrackerSmall from '../assets/skill-tracker-small.mp4'
 import zeldaSmall from '../assets/zelda-small.mp4'
 
 // define custom colors, values come from here
@@ -80,6 +81,13 @@ export default [
     deployedUrl: 'https://benjenkinsv95.github.io/react-kanban-board/',
     video: kanbanSmall,
     labels: [reactLabel, materialUILabel, jsLabel, htmlLabel]
+  },
+  {
+    title: 'Skill Tracker',
+    shortDescription: 'Review and practice different skills made with React.',
+    githubUrl: 'https://github.com/benjenkinsv95/skill-tracker',
+    video: skillTrackerSmall,
+    labels: [reactLabel, bootstrapLabel, jsLabel, htmlLabel, cssLabel]
   },
   {
     title: 'Bitcube Image Uploader',
