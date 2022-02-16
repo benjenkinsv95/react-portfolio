@@ -23,6 +23,12 @@ export const radialGradientStyles = {
   minHeight: `calc(100vh - ${headerHeight})`
 }
 
+export const footerGradientStyles = {
+  background:
+    'linear-gradient(240deg, #fdbb2d, #d6c534, #b0cb4a, #8ccd65, #68cd81, #44cb9b, #24c7b2, #22c1c3)',
+  color: 'white'
+}
+
 export const heroStyles = {
   ...centerStyles,
   ...linearGradientStyles

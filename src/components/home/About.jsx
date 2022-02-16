@@ -18,9 +18,9 @@ const About = () => {
   const { width } = useWindowSize()
   return (
     <div id='about' className='container'>
+      <h2 className='title-h2 text-secondary text-center mt-3 mb-0'>About Me</h2>
       <div className='row mb-4'>
-        <div className='col-sm-8 mt-4'>
-          <h2 className='title-h2 text-secondary'>About Me</h2>
+        <div className='col-sm-8 mt-3'>
           <Paragraph>
             I{'\''}m a software engineering instructor at General Assembly. I have had the opportunity to <span className='text-secondary'>teach over 500 new developers</span> in demand skills, such as <span className='text-primary'>React, Express, & Django</span> that they used to land jobs as full-stack developers.
           </Paragraph>
@@ -45,7 +45,7 @@ const About = () => {
             </a>
           </div>
         </div>
-        <div className='col-sm-4 mt-4'>
+        <div className='col-sm-4 mt-3'>
           <img className='img-fluid' src={profilePic} />
         </div>
       </div>

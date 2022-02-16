@@ -1,3 +1,4 @@
+import { blue, grape, mintGreen, orange, red, salmon, skyBlue, teal, yellow } from './colors'
 // import videos
 import barlimanSmall from '../assets/barliman-small.mp4'
 import bitcubeSmall from '../assets/bitcube-small.mp4'
@@ -11,18 +12,6 @@ import needThatSmall from '../assets/need-that-small.mp4'
 import sentimentsionSmall from '../assets/sentimentsion-small.mp4'
 import skillTrackerSmall from '../assets/skill-tracker-small.mp4'
 import zeldaSmall from '../assets/zelda-small.mp4'
-
-// define custom colors, values come from here
-// https://www.pinterest.com/pin/415034921912258813/
-const blue = '#4073ff'
-const grape = '#884dff'
-const mintGreen = '#6accbc'
-const orange = '#ff9933'
-const salmon = '#ff8d85'
-const skyBlue = '#14aaf5'
-const teal = '#158fad'
-const red = '#db4035'
-const yellow = '#fad000'
 
 // create labels for the different technologies used
 const awsLabel = { name: 'AWS', background: orange, color: 'white' }
@@ -52,7 +41,7 @@ export default [
   },
   {
     title: 'Latin Vocab Quiz',
-    shortDescription: 'Practice the Latin vocab in books such as LLPSI with Latin pronunciations and a review mode.',
+    shortDescription: 'Practice Latin vocab from books such as LLPSI with Latin pronunciations and a review mode.',
     githubUrl: 'https://github.com/benjenkinsv95/latin-vocab-quiz',
     deployedUrl: 'https://benjenkinsv95.github.io/latin-vocab-quiz/',
     video: latinVocabSmall,
@@ -60,7 +49,7 @@ export default [
   },
   {
     title: 'Doomsday Rule Trainer',
-    shortDescription: 'Practice the doomsday rule to figure out what day of the week any date is on in your head.',
+    shortDescription: 'Practice the doomsday rule to find the day of the week of any date in your head.',
     githubUrl: 'https://github.com/benjenkinsv95/doomsday-rule-trainer',
     deployedUrl: 'https://benjenkinsv95.github.io/doomsday-rule-trainer/',
     video: doomsdaySmall,
@@ -76,7 +65,7 @@ export default [
   },
   {
     title: 'React Kanban Board',
-    shortDescription: 'A Kanban Board built using React',
+    shortDescription: 'A Kanban Board built using React and Material UI',
     githubUrl: 'https://github.com/benjenkinsv95/react-kanban-board',
     deployedUrl: 'https://benjenkinsv95.github.io/react-kanban-board/',
     video: kanbanSmall,

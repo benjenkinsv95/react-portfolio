@@ -4,6 +4,7 @@ import Footer from '../Footer/Footer'
 import About from './About'
 import Landing from './Landing'
 import Projects from './Projects'
+import Skills from './Skills'
 
 const UnauthenticatedHome = ({ user }) => {
   if (user) {
@@ -15,6 +16,7 @@ const UnauthenticatedHome = ({ user }) => {
       <Landing />
       <About />
       <Projects />
+      <Skills />
       <Footer />
     </>
   )
