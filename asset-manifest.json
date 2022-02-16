@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.b3eace68.chunk.css",
-    "main.js": "/static/js/main.17efa55a.chunk.js",
-    "main.js.map": "/static/js/main.17efa55a.chunk.js.map",
+    "main.js": "/static/js/main.5f34a90e.chunk.js",
+    "main.js.map": "/static/js/main.5f34a90e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1f89b8c0.js",
     "runtime-main.js.map": "/static/js/runtime-main.1f89b8c0.js.map",
     "static/js/2.0b1910d6.chunk.js": "/static/js/2.0b1910d6.chunk.js",
@@ -17,6 +17,7 @@
     "static/media/doomsday-small.23f2c1ca.mp4": "/static/media/doomsday-small.23f2c1ca.mp4",
     "static/media/kanban-small.8d676b1e.mp4": "/static/media/kanban-small.8d676b1e.mp4",
     "static/media/latin-learner-small.f48b79a5.mp4": "/static/media/latin-learner-small.f48b79a5.mp4",
+    "static/media/latin-vocab-quiz-small.a1ed6775.mp4": "/static/media/latin-vocab-quiz-small.a1ed6775.mp4",
     "static/media/need-that-small.fe9cb259.mp4": "/static/media/need-that-small.fe9cb259.mp4",
     "static/media/profile_pic.9690dca2.jpg": "/static/media/profile_pic.9690dca2.jpg",
     "static/media/sentimentsion-small.bc9d26c1.mp4": "/static/media/sentimentsion-small.bc9d26c1.mp4",
@@ -26,6 +27,6 @@
     "static/js/runtime-main.1f89b8c0.js",
     "static/js/2.0b1910d6.chunk.js",
     "static/css/main.b3eace68.chunk.css",
-    "static/js/main.17efa55a.chunk.js"
+    "static/js/main.5f34a90e.chunk.js"
   ]
 }
