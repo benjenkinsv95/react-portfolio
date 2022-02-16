@@ -20,6 +20,7 @@ const red = '#db4035'
 const yellow = '#fad000'
 
 // create labels for the different technologies used
+const awsLabel = { name: 'AWS', background: orange, color: 'white' }
 const chromeExtensionLabel = { name: 'Extension', background: mintGreen, color: 'white' }
 const cssLabel = { name: 'CSS', background: yellow, color: 'black' }
 const historyLabel = { name: 'History', background: salmon, color: 'white' }
@@ -40,7 +41,7 @@ export default [
     shortDescription: 'A website to upload images, similar to imgur. Built with AWS S3.',
     githubUrl: 'https://github.com/benjenkinsv95/bitcube-image-uploader',
     video: bitcubeSmall,
-    labels: [reactLabel, materialUILabel, jsLabel, cssLabel]
+    labels: [reactLabel, awsLabel, materialUILabel, jsLabel]
   },
   {
     title: 'React Kanban Board',

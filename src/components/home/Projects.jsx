@@ -18,7 +18,7 @@ const Label = styled.span`
 const Projects = () => {
   const { width } = useWindowSize()
   const projectElements = projects.map((project, i) => (
-    <div key={i} className='col-lg-6 col-xl-4 mb-4'>
+    <div key={i} className='col-md-6 col-xl-4 mb-4'>
       <div className="card bg-dark text-white">
         {/* autoplay is also an option, instead of mouseOver/mouseOut */}
         <video className={width > 1400 ? 'small-video' : ''} loop muted playsInline autoPlay>
