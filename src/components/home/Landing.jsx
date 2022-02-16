@@ -13,14 +13,14 @@ const Landing = () => (
       <a href='https://www.linkedin.com/in/benjenkinsv95/' target='_blank' rel="noreferrer" className='icon-link'>
         <FontAwesomeIcon style={iconStyles} size='3x' icon={['fab', 'linkedin']} />
       </a>
+      <a href='benjenkinsv95@gmail.com' target='_blank' rel="noreferrer" className='icon-link'>
+        <FontAwesomeIcon style={iconStyles} size="3x" icon={['fas', 'envelope']} />
+      </a>
       <a href='https://github.com/benjenkinsv95' target='_blank' rel="noreferrer" className='icon-link'>
         <FontAwesomeIcon style={iconStyles} size="3x" icon={['fab', 'github']} />
       </a>
       <a href='https://twitter.com/benjenkinsv95' target='_blank' rel="noreferrer" className='icon-link'>
         <FontAwesomeIcon style={iconStyles} size="3x" icon={['fab', 'twitter']} />
-      </a>
-      <a href='benjenkinsv95@gmail.com' target='_blank' rel="noreferrer" className='icon-link'>
-        <FontAwesomeIcon style={iconStyles} size="3x" icon={['fas', 'envelope']} />
       </a>
     </div>
   </div>
