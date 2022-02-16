@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+
 $primary: rgba(34, 193, 195, 1);
 $secondary: rgba(253,187,45,1);
+$font-family-base: 'Roboto', sans-serif;
 @import '~bootstrap/scss/bootstrap';
+
+
+
 
 html, body {
     margin: 0;
@@ -9,6 +15,7 @@ html, body {
 body {
   background-color: #212529;
   color: white;
+  font-family: 'Roboto', sans-serif;
 }
 
 * {
