@@ -1,4 +1,4 @@
-import { blue, grape, mintGreen, orange, red, salmon, skyBlue, teal, yellow } from './colors'
+import { blue, grape, limeGreen, mintGreen, orange, red, salmon, skyBlue, teal, yellow } from './colors'
 // import videos
 import barlimanSmall from '../assets/barliman-small.mp4'
 import bitcubeSmall from '../assets/bitcube-small.mp4'
@@ -18,6 +18,7 @@ const awsLabel = { name: 'AWS', background: orange, color: 'white' }
 const bootstrapLabel = { name: 'Bootstrap', background: grape, color: 'white' }
 const chromeExtensionLabel = { name: 'Extension', background: mintGreen, color: 'white' }
 const cssLabel = { name: 'CSS', background: yellow, color: 'black' }
+const expressLabel = { name: 'Express', background: limeGreen, color: 'white' }
 const historyLabel = { name: 'History', background: salmon, color: 'white' }
 const htmlLabel = { name: 'HTML', background: orange, color: 'white' }
 const iOSLabel = { name: 'iOS', background: red, color: 'white' }
@@ -76,7 +77,7 @@ export default [
     shortDescription: 'Review and practice different skills made with React.',
     githubUrl: 'https://github.com/benjenkinsv95/skill-tracker',
     video: skillTrackerSmall,
-    labels: [reactLabel, bootstrapLabel, jsLabel, htmlLabel, cssLabel]
+    labels: [reactLabel, expressLabel, bootstrapLabel, jsLabel, htmlLabel]
   },
   {
     title: 'Bitcube Image Uploader',
