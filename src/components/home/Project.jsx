@@ -55,7 +55,7 @@ const Project = ({ title, video, labels, githubUrl, shortDescription, deployedUr
           }
           {deployedUrl &&
             <a href={deployedUrl} className="btn btn-outline-secondary" target="_blank" rel="noreferrer">
-                View Live <FontAwesomeIcon icon={['fab', 'github']} />
+                View Live&nbsp;&nbsp;<FontAwesomeIcon icon={['fas', 'desktop']} />
             </a>
           }
         </div>

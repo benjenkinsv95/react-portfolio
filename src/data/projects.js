@@ -77,7 +77,7 @@ export default [
     shortDescription: 'Review and practice different skills made with React.',
     githubUrl: 'https://github.com/benjenkinsv95/skill-tracker',
     video: skillTrackerSmall,
-    labels: [reactLabel, expressLabel, bootstrapLabel, jsLabel, htmlLabel]
+    labels: [reactLabel, expressLabel, bootstrapLabel, jsLabel]
   },
   {
     title: 'Bitcube Image Uploader',
@@ -116,7 +116,7 @@ export default [
   },
   {
     title: 'CS History Backgrounds',
-    shortDescription: 'A collection of CS history backgrounds I would leave on the projector during breaks.',
+    shortDescription: 'CS history backgrounds I would leave on the projector during breaks.',
     githubUrl: 'https://github.com/benjenkinsv95/cs-history',
     video: csHistorySmall,
     labels: [historyLabel]
