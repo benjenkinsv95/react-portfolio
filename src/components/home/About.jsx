@@ -22,11 +22,15 @@ const About = () => {
       <div className='row mb-4'>
         <div className='col-sm-8 mt-3'>
           <Paragraph>
-            I{'\''}m a software engineering instructor at General Assembly. I have had the opportunity to <span className='text-secondary'>teach over 500 new developers</span> in demand skills, such as <span className='text-primary'>React, Express, & Django</span> that they used to land jobs as full-stack developers.
+            I{'\''}m a senior software engineer, recently at Hearst where I contributed to a React Content Management System, used by <span className='text-primary'>50+ newspapers & magazines.</span> Including <span className='text-secondary'>Cosmopolitan, Esquire, & Men{'\''}s Health.</span>
           </Paragraph>
 
           <Paragraph>
-            Prior to General Assembly I developed software for <span className='text-primary'>humanoid robots</span> which delivered therapy lessons to children with Autism.
+            Formerly a software engineering instructor at General Assembly. I have had the opportunity to <span className='text-secondary'>teach over 500 new developers</span> in demand skills, such as <span className='text-primary'>React, Express, & Django</span> that they used to land jobs as full-stack developers.
+          </Paragraph>
+
+          <Paragraph>
+            Previously I developed software for <span className='text-primary'>humanoid robots</span> which delivered therapy lessons to children with Autism.
           </Paragraph>
 
           <Paragraph>
@@ -34,7 +38,7 @@ const About = () => {
           </Paragraph>
           <div>
             <a href='mailto:benjenkinsv95@gmail.com' target='_blank' rel="noreferrer">
-              <Button className={`btn btn-secondary ${width > 400 ? 'btn-lg' : ''} me-3`}>
+              <Button className={`btn btn-secondary ${width > 400 ? 'btn-lg' : ''} me-4`}>
               Get in Touch
               </Button>
             </a>
@@ -46,7 +50,7 @@ const About = () => {
           </div>
         </div>
         <div className='col-sm-4 mt-3'>
-          <img className='img-fluid' src={profilePic} />
+          <img className='img-fluid' src={profilePic} alt="A profile picture of Ben Jenkins." />
         </div>
       </div>
     </div>
