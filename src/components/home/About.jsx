@@ -1,5 +1,5 @@
 import React from 'react'
-import profilePic from './profile_pic.jpg'
+import profilePic from './profile_pic.PNG'
 import resume from './ben-jenkins-resume.pdf'
 import styled from 'styled-components'
 import useWindowSize from '../../lib/use-window-size'
