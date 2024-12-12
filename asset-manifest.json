@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5e03391c.css",
-    "main.js": "/static/js/main.9026a426.js",
+    "main.js": "/static/js/main.c378d85a.js",
     "static/media/doomsday-small.mp4": "/static/media/doomsday-small.23f2c1ca61f4b966c679.mp4",
     "static/media/latin-learner-small.mp4": "/static/media/latin-learner-small.f48b79a53c0ce3cd37e8.mp4",
     "static/media/zelda-small.mp4": "/static/media/zelda-small.c0c79badf6baa88025ed.mp4",
@@ -9,19 +9,19 @@
     "static/media/latin-table-quiz.mp4": "/static/media/latin-table-quiz.b2d9a11628b15abbf623.mp4",
     "static/media/skill-tracker-small.mp4": "/static/media/skill-tracker-small.ec146a710a1c151a4fee.mp4",
     "static/media/bitcube-small.mp4": "/static/media/bitcube-small.2fff7040d889c21794d3.mp4",
+    "static/media/profile_pic.PNG": "/static/media/profile_pic.a062a4106b0a48bd0213.PNG",
     "static/media/sentimentsion-small.mp4": "/static/media/sentimentsion-small.bc9d26c15efccf2a0756.mp4",
     "static/media/need-that-small.mp4": "/static/media/need-that-small.fe9cb259219ac96dd1f3.mp4",
     "static/media/kanban-small.mp4": "/static/media/kanban-small.8d676b1e5e61fa63da9c.mp4",
     "static/media/cs-history-small.mp4": "/static/media/cs-history-small.1a389003acc186dd5b99.mp4",
     "static/media/barliman-small.mp4": "/static/media/barliman-small.215069778d79faa13be2.mp4",
-    "static/media/profile_pic.jpg": "/static/media/profile_pic.9690dca28db3e86ab9be.jpg",
     "static/media/ben-jenkins-resume.pdf": "/static/media/ben-jenkins-resume.871515a927877d0c03ef.pdf",
     "index.html": "/index.html",
     "main.5e03391c.css.map": "/static/css/main.5e03391c.css.map",
-    "main.9026a426.js.map": "/static/js/main.9026a426.js.map"
+    "main.c378d85a.js.map": "/static/js/main.c378d85a.js.map"
   },
   "entrypoints": [
     "static/css/main.5e03391c.css",
-    "static/js/main.9026a426.js"
+    "static/js/main.c378d85a.js"
   ]
 }
